@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VCAN36A2-03G-E3-08"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SOT65P230X110-3N")
+        (spec "System")
+    )
+)

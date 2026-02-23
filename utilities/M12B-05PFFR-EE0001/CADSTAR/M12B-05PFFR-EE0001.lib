@@ -1,0 +1,18 @@
+.M12B-05PFFR-EE0001 :1 ;Circular Metric Connectors M12 B code 90 DIP, Plastic, F conn F pin, 5P
+M12B05PFFREE0001
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 9
+*DFN M12B-05PFFR-EE0001
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (M12B-05PFFR-EE0001)
+~!Mouser Part Number (523-M12B05PFFREE0001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-LTW/M12B-05PFFR-EE0001?qs=t7xnP681wgUrjyreyDbuag%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://br.mouser.com/datasheet/2/18/1/Amphenol_4_22_2022_M12B_XXPFFR_EE0001_A_-2941309.pdf)
+~!Height (13.55mm)
+~!3D_Model (M12B-05PFFR-EE0001)
+M12B-05PFFR-EE0001
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

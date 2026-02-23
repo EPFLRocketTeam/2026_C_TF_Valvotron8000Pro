@@ -1,0 +1,18 @@
+.VCAN36A2-03G-E3-08 :1 ;For CAN and FLEX-bus applications  Small SOT-323 package  2-line ESD protection Working range +/- 36 V
+SOT65P230X110-3N
+*STM D
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN VCAN36A2-03G-E3-08
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (VCAN36A2-03G-E3-08)
+~!Mouser Part Number (78-VCAN36A203G-E3-08)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/VCAN36A2-03G-E3-08?qs=TuK3vfAjtkX8mPlo4aLToA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/docs/86164/vcan36a2-03g.pdf)
+~!Height (1.1mm)
+~!3D_Model (VCAN36A2-03G-E3-08)
+VCAN36A2-03G-E3-08
+1.1!U 2.1!U 3.1!U 

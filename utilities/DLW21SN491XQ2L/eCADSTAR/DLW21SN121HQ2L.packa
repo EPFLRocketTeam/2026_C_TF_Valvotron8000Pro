@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DLW21SN491XQ2L"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-20-15:06:37)
+    (mountForm default
+        (footprintRef "DLW21SN121HQ2L")
+        (spec "System")
+    )
+)

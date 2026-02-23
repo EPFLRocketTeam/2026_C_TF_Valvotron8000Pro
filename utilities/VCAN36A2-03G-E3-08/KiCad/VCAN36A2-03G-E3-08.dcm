@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VCAN36A2-03G-E3-08
+D For CAN and FLEX-bus applications  Small SOT-323 package  2-line ESD protection Working range +/- 36 V
+K
+F https://www.vishay.com/docs/86164/vcan36a2-03g.pdf
+$ENDCMP
+#
+#End Doc Library

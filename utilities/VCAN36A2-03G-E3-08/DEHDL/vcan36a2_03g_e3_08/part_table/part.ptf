@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VCAN36A2_03G_E3_08'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "VCAN36A2-03G-E3-08" (!) = "", "SOT65P230X110-3N", "SOT23 (3-Pin)", "78-VCAN36A203G-E3-08", "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/VCAN36A2-03G-E3-08?qs=TuK3vfAjtkX8mPlo4aLToA%3D%3D", "", "", "For CAN and FLEX-bus applications  Small SOT-323 package  2-line ESD protection Working range +/- 36 V", "https://www.vishay.com/docs/86164/vcan36a2-03g.pdf", "1.1 mm"
+END_PART
+
+END.

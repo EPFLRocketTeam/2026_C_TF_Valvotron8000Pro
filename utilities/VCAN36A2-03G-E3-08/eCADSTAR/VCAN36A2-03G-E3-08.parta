@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_14040988"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-09-30-07:11:22)
+    (utime 2025-09-30-07:11:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "VCAN36A2-03G-E3-08")
+)
+
+
+(pinAssign "ECS_14040988"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-09-30-07:11:22)
+    (utime 2025-09-30-07:11:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_14040988")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "VCAN36A2-03G-E3-08")
+)
+
+
+(part "VCAN36A2-03G-E3-08"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-09-30-07:11:22)
+    (utime 2025-09-30-07:11:22)
+    (packageRef "VCAN36A2-03G-E3-08")
+    (pinAssignRef "ECS_14040988")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "For CAN and FLEX-bus applications  Small SOT-323 package  2-line ESD protection Working range +/- 36 V")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "VCAN36A2-03G-E3-08")
+    (property "Mouser_Part_Number" "78-VCAN36A203G-E3-08")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/VCAN36A2-03G-E3-08?qs=TuK3vfAjtkX8mPlo4aLToA%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/86164/vcan36a2-03g.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

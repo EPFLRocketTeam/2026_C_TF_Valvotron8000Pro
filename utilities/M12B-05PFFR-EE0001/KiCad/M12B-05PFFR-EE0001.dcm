@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M12B-05PFFR-EE0001
+D Circular Metric Connectors M12 B code 90 DIP, Plastic, F conn F pin, 5P
+K
+F https://br.mouser.com/datasheet/2/18/1/Amphenol_4_22_2022_M12B_XXPFFR_EE0001_A_-2941309.pdf
+$ENDCMP
+#
+#End Doc Library

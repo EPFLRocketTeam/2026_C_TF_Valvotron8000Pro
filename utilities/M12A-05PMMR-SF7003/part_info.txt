@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=M12A-05PMMR-SF7003.
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=3.9
+Released=2022-09-12 09:03:56
+Downloaded=2025-12-25 22:14:55
+3D=Y

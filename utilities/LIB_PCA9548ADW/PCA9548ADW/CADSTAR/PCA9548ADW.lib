@@ -1,0 +1,16 @@
+.PCA9548ADW :1 ;8-CHANNEL I2C SWITCH WITH RESET
+SOIC127P1030X265-24N
+*STM IC
+*NGS
+*PLB 1="A0" 2="A1" 3="'RESET'" 4="SD0" 5="SC0" 6="SD1" 7="SC1" 8="SD2" 9="SC2" 10="SD3" 11="SC3" 12="GND" 13="SD4" 14="SC4" 15="SD5" 16="SC5" 17="SD6" 18="SC6" 19="SD7" 20="SC7" 21="A2" 22="SCL" 23="SDA" 24="VCC"
+*MXP 24
+*DFN PCA9548ADW
+~!Mouser Part Number (595-PCA9548ADW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCA9548ADW?qs=qRemG2J%252Bg%2FVvm%2FYCmfqZXA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (PCA9548ADW)
+~!Link Datasheet (http://www.ti.com/lit/gpn/PCA9548A)
+~!Height (2.65mm)
+~!3D_Model (PCA9548ADW)
+PCA9548ADW
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

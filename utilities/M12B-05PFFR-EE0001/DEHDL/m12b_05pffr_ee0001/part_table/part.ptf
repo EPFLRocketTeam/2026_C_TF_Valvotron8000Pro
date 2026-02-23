@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M12B_05PFFR_EE0001'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "M12B-05PFFR-EE0001" (!) = "", "M12B05PFFREE0001", "Other", "523-M12B05PFFREE0001", "https://www.mouser.co.uk/ProductDetail/Amphenol-LTW/M12B-05PFFR-EE0001?qs=t7xnP681wgUrjyreyDbuag%3D%3D", "", "", "Circular Metric Connectors M12 B code 90 DIP, Plastic, F conn F pin, 5P", "https://br.mouser.com/datasheet/2/18/1/Amphenol_4_22_2022_M12B_XXPFFR_EE0001_A_-2941309.pdf", "13.55 mm"
+END_PART
+
+END.

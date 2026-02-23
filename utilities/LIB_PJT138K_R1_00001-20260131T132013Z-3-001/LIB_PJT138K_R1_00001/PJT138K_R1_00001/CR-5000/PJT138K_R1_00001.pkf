@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PJT138K_R1_00001"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PJT138K_R1_00001")
+        (spec "default")
+    )
+)

@@ -1,0 +1,16 @@
+.2EDN8533FXTMA1 :1 ;DRIVER IC PG-DSO-8
+SOIC127P602X173-8N
+*STM IC
+*NGS
+*PLB 1="ENA" 2="INA" 3="GND" 4="INB" 5="OUTB" 6="VDD" 7="OUTA" 8="ENB"
+*MXP 8
+*DFN 2EDN8533FXTMA1
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (2EDN8533FXTMA1)
+~!Link Datasheet (https://www.infineon.com/cms/en/product/power/gate-driver-ics/?)
+~!Height (1.73mm)
+~!3D_Model (2EDN8533FXTMA1)
+"2EDN8533FXTMA1"
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

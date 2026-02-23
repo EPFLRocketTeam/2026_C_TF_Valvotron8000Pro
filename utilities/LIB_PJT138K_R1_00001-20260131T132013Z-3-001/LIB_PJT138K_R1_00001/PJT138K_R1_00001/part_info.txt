@@ -1,0 +1,9 @@
+Manufacturer=PANJIT
+PartNumber=PJT138K_R1_00001
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2022-06-22 09:48:06
+Downloaded=2025-12-31 15:57:22
+3D=Y

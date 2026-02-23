@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DLW21SN491XQ2L"
+   (description "DLW21SN_Q2L Series EMI Suppression Filter 490 at 100MHz 190mA 20V")
+   (family "ANA")
+   (package "DLW21SN121HQ2L")
+   (attribute "Datasheet Link" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN491XQ2%23")
+   (attribute "Geometry.Height" "1.4mm")
+   (attribute "Mouser Part Number" "81-DLW21SN491XQ2L")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DLW21SN491XQ2L?qs=AKMysZHk1FUIqrvUTtgYeA%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "DLW21SN491XQ2L")
+   (gate
+    (symbol "DLW21SN491XQ2L")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "DLW21SN491XQ2L"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DLW21SN121HQ2L"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.6)
+      (pt 1 0.6)
+      (pt 1 -0.6)
+      (pt -1 -0.6)
+      (pt -1 0.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.3 1.6)
+      (pt 2.3 1.6)
+      (pt 2.3 -2.15)
+      (pt -2.3 -2.15)
+      (pt -2.3 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 0.6)
+      (pt 0 -0.6)
+      (pt 0 0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 -1.1)
+      (arc (pt -1.000 -1.100) (pt -1.100 -1.150) (pt -1.000 -1.050) (start 180.0) (sweep .0))
+      (pt -1.1 -1.1)
+      (arc (pt -1.100 -1.100) (pt -1.100 -1.150) (pt -1.000 -1.050) (start 180.0) (sweep 180.0))
+      (pt -1 -1.1))))
+   (leg 1 (pt -0.850 -0.400) (padstack 0))
+   (leg 2 (pt 0.850 -0.400) (padstack 0))
+   (leg 3 (pt 0.850 0.400) (padstack 0))
+   (leg 4 (pt -0.850 0.400) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.900 0 0 0.000))
+   )
+   (model "DLW21SN491XQ2L.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

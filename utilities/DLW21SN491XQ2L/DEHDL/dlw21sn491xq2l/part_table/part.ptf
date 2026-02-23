@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DLW21SN491XQ2L'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "DLW21SN491XQ2L" (!) = "", "DLW21SN121HQ2L", "Other", "81-DLW21SN491XQ2L", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DLW21SN491XQ2L?qs=AKMysZHk1FUIqrvUTtgYeA%3D%3D", "DLW21SN_Q2L Series EMI Suppression Filter 490 at 100MHz 190mA 20V", "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN491XQ2%23", "1.4 mm"
+END_PART
+
+END.

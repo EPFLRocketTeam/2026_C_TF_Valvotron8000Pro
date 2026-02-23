@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2EDN8533FXTMA1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "2EDN8533FXTMA1" (!) = "", "SOIC127P602X173-8N", "Small Outline Packages", "", "", "DRIVER IC PG-DSO-8", "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?", "1.73 mm"
+END_PART
+
+END.

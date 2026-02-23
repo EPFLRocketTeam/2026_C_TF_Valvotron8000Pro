@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=2EDN8533FXTMA1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2022-06-17 07:23:59
+Downloaded=2025-12-31 16:03:31
+3D=Y

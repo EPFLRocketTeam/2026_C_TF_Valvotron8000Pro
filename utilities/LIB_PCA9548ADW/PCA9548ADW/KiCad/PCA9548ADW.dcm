@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9548ADW
+D 8-CHANNEL I2C SWITCH WITH RESET
+K
+F http://www.ti.com/lit/gpn/PCA9548A
+$ENDCMP
+#
+#End Doc Library

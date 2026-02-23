@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DLW21SN121HQ2L"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DLW21SN121HQ2L")
+        (spec "default")
+    )
+)

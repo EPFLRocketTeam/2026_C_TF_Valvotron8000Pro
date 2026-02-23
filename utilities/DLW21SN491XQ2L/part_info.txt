@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=DLW21SN491XQ2L
+PartCategory=Filter
+PackageCategory=Other
+PinCount=4
+Version=2.2
+Released=2019-03-18 12:49:52
+Downloaded=2025-12-24 11:36:17
+3D=Y
