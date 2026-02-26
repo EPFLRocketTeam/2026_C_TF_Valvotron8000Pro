@@ -4545,7 +4545,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 162.56) (xy 147.32 162.56)
+			(xy 132.08 162.56) (xy 148.59 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 160.02) (xy 147.32 160.02)
+			(xy 132.08 160.02) (xy 148.59 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6621,6 +6621,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 148.59 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c88f402-0b1d-4a28-84b4-acf441d9914e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.1347 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "INT"
 		(shape input)
 		(at 147.32 142.24 0)
@@ -6788,6 +6810,28 @@
 		(uuid "e136bb45-d625-41cf-a8f8-2d673cd66071")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.5904 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 148.59 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1937530-f1bf-477c-8017-de3a43ae0680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.1952 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
