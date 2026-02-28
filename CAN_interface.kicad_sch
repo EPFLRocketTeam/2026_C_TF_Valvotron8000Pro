@@ -2667,6 +2667,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connectors\n"
+		(exclude_from_sim no)
+		(at 221.742 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c2f4bbb-00cc-4396-97f6-5a4f3599736a")
+	)
 	(junction
 		(at 143.51 161.29)
 		(diameter 0)
@@ -4023,17 +4033,6 @@
 			(justify left bottom)
 		)
 		(uuid "24384b14-09ee-4186-b157-44534cdfcc7b")
-	)
-	(label "Connectors"
-		(at 213.36 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "27487fa7-b4b7-478f-a45d-89b44724fcf9")
 	)
 	(label "Shield"
 		(at 243.84 129.54 0)

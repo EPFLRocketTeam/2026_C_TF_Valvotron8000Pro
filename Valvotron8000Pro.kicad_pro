@@ -484,6 +484,10 @@
       {
         "netclass": "Default",
         "pattern": "AGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+24V"
       }
     ]
   },

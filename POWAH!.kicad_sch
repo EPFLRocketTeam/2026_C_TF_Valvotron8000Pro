@@ -2300,7 +2300,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "10k"
 			(at 209.55 107.95 90)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "10k"
 			(at 209.55 123.19 90)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "10k"
 			(at 209.55 138.43 90)
 			(effects
 				(font
