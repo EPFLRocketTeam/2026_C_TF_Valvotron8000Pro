@@ -2666,6 +2666,127 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TVS diode array\n"
+		(exclude_from_sim no)
+		(at 116.078 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03c29dd2-94bc-4207-b798-7d35c03a4537")
+	)
+	(text "50~100R 100MHz"
+		(exclude_from_sim no)
+		(at 110.744 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17b4eef3-db7d-47f1-9e62-8ac74717f6cd")
 	)
 	(text "Connectors\n"
 		(exclude_from_sim no)
@@ -2676,6 +2797,86 @@
 			)
 		)
 		(uuid "1c2f4bbb-00cc-4396-97f6-5a4f3599736a")
+	)
+	(text "Some bypass around here, IDK man I'm just vide KiCading at this point"
+		(exclude_from_sim no)
+		(at 132.08 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "554c2036-fbf0-49a2-97d1-30e930e52e76")
+	)
+	(text "should be VDD/2"
+		(exclude_from_sim no)
+		(at 31.496 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0f3f808-baf6-4c76-a1b3-dd45afbb149f")
+	)
+	(text "Signal protection and conditioning"
+		(exclude_from_sim no)
+		(at 108.966 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a68adba4-3204-4904-9668-93ae1b24baaa")
+	)
+	(text "A FAIRE : CONNECTEUR CAN\nCONNECTEUR M12 + SMA\n"
+		(exclude_from_sim no)
+		(at 238.76 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1ea018a-9609-43cd-b136-aa0c1d6363ac")
+	)
+	(text "RC for auto reset\n"
+		(exclude_from_sim no)
+		(at 152.4 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c711c7cc-d193-408a-924a-b1c0f50beae5")
+	)
+	(text "remove jumper after debugging"
+		(exclude_from_sim no)
+		(at 69.342 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c837edcc-474b-4c52-98df-5a6673e9b66d")
+	)
+	(text "Crystal close to chip pls"
+		(exclude_from_sim no)
+		(at 57.658 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8291278-3b75-4b92-a853-91ca8249adbe")
+	)
+	(text "only for termination\n\n\n"
+		(exclude_from_sim no)
+		(at 144.78 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb8d3120-08cc-4786-82bd-f4c2d07e30fa")
 	)
 	(junction
 		(at 143.51 161.29)
@@ -2718,6 +2919,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a523b2d-4b1d-4f63-a66f-2d2ffef355ab")
+	)
+	(junction
+		(at 91.44 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "402f53e0-66d1-4060-aee1-9abb4aaf53f9")
 	)
 	(junction
 		(at 113.03 40.64)
@@ -3215,6 +3422,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 100.33) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad4f119-30a4-4699-801a-ddfb8be6a1d5")
+	)
+	(wire
+		(pts
 			(xy 151.13 167.64) (xy 151.13 168.91)
 		)
 		(stroke
@@ -3595,6 +3812,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bdc6b0-5fe7-46b0-8995-a89b1227d5d8")
+	)
+	(wire
+		(pts
 			(xy 91.44 33.02) (xy 91.44 57.15)
 		)
 		(stroke
@@ -3825,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 104.14) (xy 91.44 97.79)
+			(xy 91.44 104.14) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4013,27 +4240,6 @@
 		)
 		(uuid "f974ff16-3dc0-42f8-bcc8-233a9f1ecf0e")
 	)
-	(label "should be VDD{slash}2"
-		(at 27.94 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a460d43-81c4-411f-aa7c-761b38e6e4c5")
-	)
-	(label "Some bypass around here, IDK man I'm just vide KiCading at this point"
-		(at 95.25 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 194 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "24384b14-09ee-4186-b157-44534cdfcc7b")
-	)
 	(label "Shield"
 		(at 243.84 129.54 0)
 		(effects
@@ -4044,48 +4250,6 @@
 		)
 		(uuid "65e491cf-d7a9-4efc-a813-d6debf355926")
 	)
-	(label "Signal protection and conditioning"
-		(at 90.17 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "67bd9e81-c2ff-427d-88dc-3e75c34ba54f")
-	)
-	(label "TVS diode array"
-		(at 97.79 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6da6f690-424e-4abe-8c68-c7f009134de2")
-	)
-	(label "remove jumper after debugging"
-		(at 57.15 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70701ceb-7ac3-4b4a-a909-dca4a02468d4")
-	)
-	(label "RC for auto reset"
-		(at 143.51 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 194 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dc62975-f34d-4246-b4d6-12f93510c714")
-	)
 	(label "Shield"
 		(at 243.84 92.71 0)
 		(effects
@@ -4095,36 +4259,6 @@
 			(justify left bottom)
 		)
 		(uuid "8925f3b4-27d1-4146-a44a-c11f00d6ca13")
-	)
-	(label "only for termination"
-		(at 134.62 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bedc4d82-282f-4cbb-88cc-81d9e3b05aa5")
-	)
-	(label "50~100R 100MHz"
-		(at 102.87 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8270d5c-9032-4397-963f-026ca7ddfd52")
-	)
-	(label "Crystal close to chip pls"
-		(at 45.72 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9eb7b2b-1b38-4634-b7ea-0407a7f39fd4")
 	)
 	(global_label "MOSI"
 		(shape input)
@@ -4509,6 +4643,23 @@
 				(type none)
 			)
 			(uuid 697819ca-977a-4239-8171-1f43ce19b095)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 223.52 31.75) (xy 255.27 31.75) (xy 255.27 40.64) (xy 226.06 40.64) (xy 223.52 38.1)
+			)
+			(stroke
+				(width 1)
+				(type solid)
+				(color 194 0 0 1)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.29)
+			)
+			(uuid 8e9d294d-3fa9-42d7-8053-3d2d7417dfd9)
 		)
 	)
 	(rule_area
@@ -5035,6 +5186,73 @@
 			(project "Valvotron8000Pro"
 				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/ab3725e4-8594-4005-8898-2e8169b9e1ee"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "270253b2-23d7-4b50-9417-65388d0d9f63")
+		(property "Reference" "#FLG02"
+			(at 86.995 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 85.09 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a552f30c-aa14-44d8-bbe9-1a858ec969ad")
+		)
+		(instances
+			(project ""
+				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/ab3725e4-8594-4005-8898-2e8169b9e1ee"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

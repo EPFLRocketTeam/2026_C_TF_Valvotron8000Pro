@@ -507,25 +507,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
+			(property "Reference" "J1"
+				(at -3.81 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "USB_B_Micro"
-				(at -5.08 8.89 0)
+				(at 13.97 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "KiNic_footprints:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -561,7 +561,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*"
+			(property "ki_fp_filters" "USB*Micro*B*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +781,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "VBUS"
@@ -4852,10 +4852,6 @@
 		(uuid "0bd7e58a-7822-4a52-8c61-ccf8e07309b6")
 	)
 	(no_connect
-		(at 147.32 170.18)
-		(uuid "119f2890-963f-40cf-8eec-887481469031")
-	)
-	(no_connect
 		(at 147.32 157.48)
 		(uuid "49cdc5a2-a84a-4327-9025-1ffbf159b01b")
 	)
@@ -4880,10 +4876,6 @@
 		(uuid "7c85b00d-da90-42fc-af63-cec84a343828")
 	)
 	(no_connect
-		(at 147.32 165.1)
-		(uuid "9281dea7-6d1c-4cd8-8a7f-c050888c138f")
-	)
-	(no_connect
 		(at 147.32 137.16)
 		(uuid "9ad9601b-371b-4552-ae6f-ef4dd5af177f")
 	)
@@ -4894,10 +4886,6 @@
 	(no_connect
 		(at 289.56 149.86)
 		(uuid "d828778f-dc95-4830-b1fa-929e10ec5289")
-	)
-	(no_connect
-		(at 147.32 167.64)
-		(uuid "dbd4cabc-ac58-4cc0-802b-3446a364c53d")
 	)
 	(no_connect
 		(at 147.32 190.5)
@@ -5103,7 +5091,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 167.64) (xy 147.32 167.64)
+			(xy 132.08 167.64) (xy 148.59 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5381,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 165.1) (xy 147.32 165.1)
+			(xy 132.08 165.1) (xy 148.59 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6643,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 170.18) (xy 147.32 170.18)
+			(xy 132.08 170.18) (xy 148.59 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7423,6 +7411,28 @@
 			)
 		)
 	)
+	(global_label "PWM_SERVO1"
+		(shape input)
+		(at 148.59 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "022c40e6-9287-4d1c-94d9-71680ec3414f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.9727 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_RESET"
 		(shape input)
 		(at 147.32 134.62 0)
@@ -7502,6 +7512,28 @@
 		(uuid "3e0f20a3-ed0a-42ad-ac2c-7dd8c6cfbb3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.0828 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 148.59 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44a91dfd-d0f4-46fb-9d0a-ae7ef90e76b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3203 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,6 +7666,28 @@
 		(uuid "659d78c4-de34-4670-bc3e-a585d376a2f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.9142 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_SERVO2"
+		(shape input)
+		(at 148.59 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "749a9e73-485b-4d1a-a85d-25f362778e9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.9727 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,9 +7914,9 @@
 				(xy 247.65 234.95) (xy 247.65 215.9)
 			)
 			(stroke
-				(width 0.254)
+				(width 0.7)
 				(type solid)
-				(color 0 0 132 1)
+				(color 0 0 255 1)
 			)
 			(fill
 				(type color)
@@ -8724,12 +8778,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Micro Type B connector"
 			(at 281.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11099,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 210.82 224.79 90)
 			(effects
 				(font
@@ -11173,7 +11228,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "10k"
 			(at 210.82 215.646 90)
 			(effects
 				(font
@@ -11696,7 +11751,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 210.82 219.71 90)
 			(effects
 				(font
