@@ -2930,89 +2930,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -4488,7 +4405,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 170.18) (xy 151.13 170.18)
+			(xy 149.86 138.43) (xy 153.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4575,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 193.04) (xy 147.32 190.5)
+			(xy 149.86 161.29) (xy 149.86 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4688,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 187.96) (xy 151.13 187.96)
+			(xy 149.86 156.21) (xy 153.67 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4888,7 +4805,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 177.8) (xy 160.02 177.8)
+			(xy 160.02 146.05) (xy 162.56 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5268,7 +5185,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.8) (xy 147.32 175.26)
+			(xy 149.86 146.05) (xy 149.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5468,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 185.42) (xy 151.13 185.42)
+			(xy 149.86 153.67) (xy 153.67 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5488,7 +5405,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 193.04) (xy 149.86 193.04)
+			(xy 149.86 161.29) (xy 152.4 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6418,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.8) (xy 149.86 177.8)
+			(xy 149.86 146.05) (xy 152.4 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6428,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 151.13 172.72)
+			(xy 149.86 140.97) (xy 153.67 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6425,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 193.04) (xy 160.02 193.04)
+			(xy 160.02 161.29) (xy 162.56 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6856,7 +6773,7 @@
 	)
 	(global_label "+8V4_SERVO"
 		(shape input)
-		(at 151.13 172.72 0)
+		(at 153.67 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6866,7 +6783,7 @@
 		)
 		(uuid "14d80b7b-e53e-4f7d-84c0-3a2e23ccfc05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.2104 172.72 0)
+			(at 168.7504 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7191,7 @@
 	)
 	(global_label "PWM_SERVO2"
 		(shape input)
-		(at 160.02 193.04 0)
+		(at 162.56 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7284,7 +7201,7 @@
 		)
 		(uuid "66a0b994-1303-4e64-bc33-f5e7d34c88f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4027 193.04 0)
+			(at 177.9427 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7543,7 @@
 	)
 	(global_label "PWM_SERVO1"
 		(shape input)
-		(at 160.02 177.8 0)
+		(at 162.56 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7636,7 +7553,7 @@
 		)
 		(uuid "b08c4cde-1d36-486f-ada5-5b707382e964")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4027 177.8 0)
+			(at 177.9427 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7807,7 @@
 	)
 	(global_label "GND_SERVO"
 		(shape input)
-		(at 151.13 185.42 0)
+		(at 153.67 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7900,7 +7817,7 @@
 		)
 		(uuid "d038fb92-0907-44eb-b093-a76e06489430")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0009 185.42 0)
+			(at 167.5409 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +7983,7 @@
 	)
 	(global_label "GND_SERVO"
 		(shape input)
-		(at 151.13 170.18 0)
+		(at 153.67 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8076,7 +7993,7 @@
 		)
 		(uuid "e8e80714-d77d-4e73-9f96-6a0d13a01f92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0009 170.18 0)
+			(at 167.5409 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8071,7 @@
 	)
 	(global_label "+8V4_SERVO"
 		(shape input)
-		(at 151.13 187.96 0)
+		(at 153.67 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8164,7 +8081,7 @@
 		)
 		(uuid "f5beb837-ced3-40f3-beef-9ba8682be87d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.2104 187.96 0)
+			(at 168.7504 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8157,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 158.75 129.54) (xy 181.61 129.54) (xy 182.88 130.81) (xy 182.88 162.56) (xy 158.75 162.56)
+				(xy 139.7 132.08) (xy 179.07 132.08) (xy 180.34 133.35) (xy 180.34 165.1) (xy 139.7 165.1)
 			)
 			(stroke
 				(width 0.5)
@@ -8839,70 +8756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 162.56 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09f3f591-fbbd-4443-9e78-cd0002988bab")
-		(property "Reference" "H3"
-			(at 165.1 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 165.1 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 162.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 162.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Valvotron8000Pro"
-				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/8e33e0a9-3c6e-4058-b4fe-6bd4414a3c9f"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 95.25 172.72 0)
 		(mirror y)
@@ -9309,7 +9162,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 142.24 172.72 0)
+		(at 144.78 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9318,7 +9171,7 @@
 		(fields_autoplaced yes)
 		(uuid "16495da8-b244-447b-b7c7-5c7ad4c5f4a1")
 		(property "Reference" "J14"
-			(at 142.875 165.1 0)
+			(at 145.415 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9179,7 @@
 			)
 		)
 		(property "Value" "Servo1"
-			(at 142.875 167.64 0)
+			(at 145.415 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +9187,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 142.24 172.72 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +9196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 172.72 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9205,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 142.24 172.72 0)
+			(at 144.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,70 +9895,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 162.56 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "265125ec-5d55-49a8-b3b4-8d77aa84c8be")
-		(property "Reference" "H2"
-			(at 165.1 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 165.1 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 162.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Valvotron8000Pro"
-				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/8e33e0a9-3c6e-4058-b4fe-6bd4414a3c9f"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DPR_devices:R")
 		(at 246.38 107.95 90)
 		(unit 1)
@@ -10652,70 +10441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 162.56 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35a20376-af95-4ad8-95ed-4db5aa3d3d5a")
-		(property "Reference" "H4"
-			(at 165.1 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 165.1 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 162.56 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 162.56 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Valvotron8000Pro"
-				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/8e33e0a9-3c6e-4058-b4fe-6bd4414a3c9f"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DPR_devices:GND")
 		(at 26.67 68.58 0)
 		(unit 1)
@@ -11045,7 +10770,7 @@
 	)
 	(symbol
 		(lib_id "DPR_devices:R")
-		(at 153.67 177.8 90)
+		(at 156.21 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11053,7 +10778,7 @@
 		(dnp no)
 		(uuid "48abb444-444e-45d9-87e6-1273a04ded3b")
 		(property "Reference" "R30"
-			(at 153.924 175.514 90)
+			(at 156.464 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +10786,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 153.67 180.086 90)
+			(at 156.21 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +10794,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.67 179.578 90)
+			(at 156.21 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +10803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 177.8 0)
+			(at 156.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +10812,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 177.8 0)
+			(at 156.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +12288,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 142.24 187.96 0)
+		(at 144.78 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12572,7 +12297,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f3d97be-b401-4e96-97a6-ea9157e25d11")
 		(property "Reference" "J16"
-			(at 142.875 180.34 0)
+			(at 145.415 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,7 +12305,7 @@
 			)
 		)
 		(property "Value" "Servo2"
-			(at 142.875 182.88 0)
+			(at 145.415 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12313,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 142.24 187.96 0)
+			(at 144.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 187.96 0)
+			(at 144.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12331,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 142.24 187.96 0)
+			(at 144.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +12496,7 @@
 	)
 	(symbol
 		(lib_id "DPR_devices:R")
-		(at 153.67 193.04 90)
+		(at 156.21 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12779,7 +12504,7 @@
 		(dnp no)
 		(uuid "841385f9-88a1-42fc-a124-a84ceb4c8855")
 		(property "Reference" "R31"
-			(at 153.67 190.754 90)
+			(at 156.21 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12512,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 153.67 195.326 90)
+			(at 156.21 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12795,7 +12520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.67 194.818 90)
+			(at 156.21 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12804,7 +12529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 193.04 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12813,7 +12538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 193.04 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
