@@ -2828,16 +2828,6 @@
 		)
 		(uuid "a68adba4-3204-4904-9668-93ae1b24baaa")
 	)
-	(text "A FAIRE : CONNECTEUR CAN\nCONNECTEUR M12 + SMA\n"
-		(exclude_from_sim no)
-		(at 238.76 36.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b1ea018a-9609-43cd-b136-aa0c1d6363ac")
-	)
 	(text "RC for auto reset\n"
 		(exclude_from_sim no)
 		(at 152.4 57.658 0)
@@ -4643,23 +4633,6 @@
 				(type none)
 			)
 			(uuid 697819ca-977a-4239-8171-1f43ce19b095)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 223.52 31.75) (xy 255.27 31.75) (xy 255.27 40.64) (xy 226.06 40.64) (xy 223.52 38.1)
-			)
-			(stroke
-				(width 1)
-				(type solid)
-				(color 194 0 0 1)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.29)
-			)
-			(uuid 8e9d294d-3fa9-42d7-8053-3d2d7417dfd9)
 		)
 	)
 	(rule_area

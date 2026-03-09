@@ -12357,7 +12357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fbfced8-6516-4df1-8342-c0a2f2f0127d")
-		(property "Reference" "BOOTSEL"
+		(property "Reference" "BOOTSEL1"
 			(at 66.294 113.284 90)
 			(effects
 				(font
@@ -12411,7 +12411,7 @@
 		(instances
 			(project "Valvotron8000Pro"
 				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/e081148b-fef9-4fa9-8f75-119abd10d809"
-					(reference "BOOTSEL")
+					(reference "BOOTSEL1")
 					(unit 1)
 				)
 			)
@@ -13068,7 +13068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0998955-561b-43a3-a9c5-c33b8251343c")
-		(property "Reference" "RESET"
+		(property "Reference" "RESET1"
 			(at 65.024 177.546 90)
 			(effects
 				(font
@@ -13122,7 +13122,7 @@
 		(instances
 			(project ""
 				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/e081148b-fef9-4fa9-8f75-119abd10d809"
-					(reference "RESET")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
