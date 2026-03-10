@@ -2666,107 +2666,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "TVS diode array\n"
 		(exclude_from_sim no)
@@ -2909,12 +2808,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a523b2d-4b1d-4f63-a66f-2d2ffef355ab")
-	)
-	(junction
-		(at 91.44 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "402f53e0-66d1-4060-aee1-9abb4aaf53f9")
 	)
 	(junction
 		(at 113.03 40.64)
@@ -3232,6 +3125,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 97.79) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d33262-4348-4fa1-b0b0-06b85b3ee9f1")
+	)
+	(wire
+		(pts
 			(xy 142.24 90.17) (xy 142.24 92.71)
 		)
 		(stroke
@@ -3409,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "49440591-3293-4f26-b948-20b941a72d63")
-	)
-	(wire
-		(pts
-			(xy 91.44 100.33) (xy 91.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad4f119-30a4-4699-801a-ddfb8be6a1d5")
 	)
 	(wire
 		(pts
@@ -3802,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 100.33) (xy 91.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6bdc6b0-5fe7-46b0-8995-a89b1227d5d8")
-	)
-	(wire
-		(pts
 			(xy 91.44 33.02) (xy 91.44 57.15)
 		)
 		(stroke
@@ -4039,16 +3922,6 @@
 			(type default)
 		)
 		(uuid "ce9c794d-f56b-45d7-9492-a6ccdc68f3b3")
-	)
-	(wire
-		(pts
-			(xy 91.44 104.14) (xy 91.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d23ed99a-1388-4199-bf22-4b05c495ac86")
 	)
 	(wire
 		(pts
@@ -5159,73 +5032,6 @@
 			(project "Valvotron8000Pro"
 				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/ab3725e4-8594-4005-8898-2e8169b9e1ee"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 88.9 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "270253b2-23d7-4b50-9417-65388d0d9f63")
-		(property "Reference" "#FLG02"
-			(at 86.995 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a552f30c-aa14-44d8-bbe9-1a858ec969ad")
-		)
-		(instances
-			(project ""
-				(path "/e783bbdf-2a7f-40b9-9fb7-b62785862857/ab3725e4-8594-4005-8898-2e8169b9e1ee"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
